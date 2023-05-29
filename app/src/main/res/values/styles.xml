@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Color -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Dark variant of the primary color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Accent Color -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Toolbar Style -->
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

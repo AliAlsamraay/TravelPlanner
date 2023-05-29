@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- EditText for Travel Title -->
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="385dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="50dp"
+            android:inputType="text"
+            android:hint="Enter title"
+            android:contentDescription="Title input field"
+            />
+
+
+        <!-- DatePicker for Travel Date -->
+        <TextView
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Enter the date" />
+
+
+        <!-- TimePicker for Travel Time -->
+        <TextView
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter the time" />
+
+        <!-- Button for Save -->
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
