@@ -8,7 +8,7 @@ View a list of your upcoming travels with essential details.
 Edit existing travel plans.
 Set reminders for your travels to ensure you never miss an important event.
 Receive notifications for upcoming trips, keeping you informed and prepared.
-Compatible with Android devices running API level 21 (Android 5.0 Lollipop) and above.
+
 
 Installation:
 Clone the repository to your local machine.
